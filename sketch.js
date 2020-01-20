@@ -22,7 +22,7 @@ function draw(){
     ball.roll();
     image(line,0,0)
     if(ball.ballVector.x > windowWidth){
-        ball.ballVector.x = ball.radius;
+        ball.ballVector.x = 0;
     }
 }
 class Circle{
